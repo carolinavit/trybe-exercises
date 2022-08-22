@@ -1,0 +1,30 @@
+h1{
+    color: orange;
+    width: 65px;
+    font-family: sans-serif;
+}
+
+.back-style {
+    background-color: violet;
+}
+
+p {
+    font-weight:600; 
+    font-size:48px;
+    font-style:oblique;
+}
+
+body {
+    font-size: 16px;
+    text-align: center;
+}
+
+#primeiro-item {
+    background-color:yellow;
+}
+#segundo-item {
+    background-color:red;
+}
+#terceiro-item {
+    background-color:brown;
+}
