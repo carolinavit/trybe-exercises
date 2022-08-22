@@ -1,6 +1,6 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+/* let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-/*console.log(numbers); 
+console.log(numbers); 
 
 let soma= 0;
 
@@ -30,18 +30,34 @@ for (let index=0; index < numbers.length; index += 1) {
             numeroMaior = numbers[index];
         }
     }
-    console.log(numeroMaior); */
+    console.log(numeroMaior); 
 
+let cont = 0;
 
-    let cont=0;
+for (let index = 0; index < numbers.length; index += 1) {
+  if (numbers[index] % 2 !== 0) {
+    cont += 1;
+  }
+}
+if (cont == 0) {
+  console.log("Nenhum valor ímpar encontrado");
+} else {
+  console.log(cont);
+} 
 
-    for (let index = 0; index < numbers.length; index += 1) 
-    
-        if ((index % 2) !== 0) {
-            cont += 1;
-        } else {
-            console.log("Nenhum valor ímpar encontrado.")
-        }
-    
+let numeroMenor = 200;
 
-        console.log(cont);
+for (let index = 0; index < numbers.length; index += 1) {
+  if (numbers[index] < numeroMenor) {
+    numeroMenor = numbers[index];
+  }
+}
+console.log(numeroMenor); 
+
+let novoArray = [];
+
+for (index = 0; index <= 25; index += 1) {
+  novoArray.push(index);
+}
+console.log(novoArray);
+*/
