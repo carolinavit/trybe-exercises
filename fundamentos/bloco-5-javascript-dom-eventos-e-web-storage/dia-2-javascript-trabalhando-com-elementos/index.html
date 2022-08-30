@@ -61,6 +61,25 @@
       let novoTitulo = document.createElement("h1");
       novoTitulo.innerText = "Exercício 5.2 - JavaScript DOM";
       body.appendChild(novoTitulo);
+
+      let main = document.createElement("main");
+      main.className = "main-content";
+      body.appendChild(main);
+
+      let sectionCenter = document.createElement("section");
+      sectionCenter.className = "center-content";
+      main.appendChild(sectionCenter);
+
+      let paragrafo = document.createElement("p");
+      paragrafo.innerText =
+        "Lorem ipsum dolor sit amet. Qui sapiente praesentium nam esse quae in doloremque ratione. Aut perferendis eaque eos veniam sint et laboriosam iure et illo dignissimos qui officiis saepe ut excepturi rerum. Sit corporis velit qui rerum quod aut odit blanditiis est voluptate accusamus eum molestias tenetur eum corporis atque.";
+      sectionCenter.appendChild(paragrafo);
+
+      let sectionLeft = document.createElement("section");
+      sectionLeft.className = "left-content";
+      main.appendChild(sectionLeft);
+
+      // Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
     </script>
   </body>
 </html>
